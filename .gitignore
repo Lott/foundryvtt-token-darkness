@@ -1,0 +1,7 @@
+.vscode/
+exclude_node.txt
+movelocal.bat
+node_modules/
+tsconfig.json
+yarn.lock
+yarn-error.log

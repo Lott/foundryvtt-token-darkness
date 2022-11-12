@@ -1,3 +1,6 @@
 {
-    "MODULE.hello": "hello"
+    "TOKENDARKNESS.debug": "Debug",
+    "TOKENDARKNESS.debug_hint": "Output debugging to the console.  Requires restart.",
+    "TOKENDARKNESS.chatoutput": "Output to chat",
+    "TOKENDARKNESS.chatoutput_hint": "Output to the chat whenever a token changes between darkness, dim light, and bright light after moving."
 }

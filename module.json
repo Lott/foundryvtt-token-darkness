@@ -1,7 +1,7 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "foundryvtt-token-darkness",
+  "title": "Token Darkness Check",
+  "description": "Check to see if a token is in Bright Light, Dim Light or Darkness after moving",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
@@ -12,9 +12,8 @@
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Luke Padgett",
+      "discord": "Lott#5525"
     }
   ],
   "relationships": {
