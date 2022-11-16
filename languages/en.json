@@ -1,6 +1,14 @@
 {
-    "TOKENDARKNESS.debug": "Debug",
-    "TOKENDARKNESS.debug_hint": "Output debugging to the console.  Requires restart.",
-    "TOKENDARKNESS.chatoutput": "Output to chat",
-    "TOKENDARKNESS.chatoutput_hint": "Output to the chat whenever a token changes between darkness, dim light, and bright light after moving."
+    "TokenDarkness.enabled_name": "Enabled",
+    "TokenDarkness.enabled_hint": "Enable darkness checks",
+    "TokenDarkness.debug_name": "Debug",
+    "TokenDarkness.debug_hint": "Output debugging to the console.  Requires restart.",
+    "TokenDarkness.chatoutput_name": "Debug: Output to Chat",
+    "TokenDarkness.chatoutput_hint": "Output to the chat whenever a token changes between darkness, dim light, and bright light after moving. Only occurs when Debug is enabled",
+    "TokenDarkness.globalcheck_enabled_name": "Enable Global Illumination Checks",
+    "TokenDarkness.globalcheck_enabled_hint": "If Enabled the scene will be checked for Global Illumination & Darkness Level. When checking the darkness level, the order of checks to determine darkness level is 'Scene: Global Illumination Threshold', 'Dark Threshold', 'Dim Threshold'",
+    "TokenDarkness.globaldimthreshold_name": "Global Illumination: Dim Threshold",
+    "TokenDarkness.globaldimthreshold_hint": "The Scene 'Darkness Level' that is considered to be Dim Light",    
+    "TokenDarkness.globaldarkthreshold_name": "Global Illumination: Darkness Threshold",
+    "TokenDarkness.globaldarkthreshold_hint": "The Scene 'Darkness Level' that is considered to be Darkness.  Will override the Dim Threshold if set to a lower number."
 }
